@@ -1,4 +1,21 @@
-￼import serial
+import serial
  ser = serial.Serial(‘/dev/ttyACM0’ , 9600 )
  while 1 : 
     ser.readline()
+
+
+
+
+/*
+
+The first argument – /dev/ttyACM0 is the name for the USB interface used. To find out the port name, we need to run this command in terminal without Arduino plugged in:
+
+ ls /dev/tty*
+
+Now plug in your Arduio and run the command again. If a new name appears, then this is the name of your port.
+
+The second argument – 9600 is the baud rate and should match with what you set in the Arduino program.
+
+You will need two hit enter twice after you type the last line  ( —> ser.readline() )
+
+*/
