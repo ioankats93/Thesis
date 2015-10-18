@@ -2,9 +2,11 @@
 //Academic year   2014-2015
 
 /*
+
  * @author      Ioannis Katsikavelas <ioankats93@gmail.com>              
  * @copyright   2015 - Ioannis Katsikavelas 
  * @license     {@link http://choosealicense.com/licenses/mit/ | MIT License}
+ 
  */
 
 
