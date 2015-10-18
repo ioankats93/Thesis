@@ -2,10 +2,11 @@
 //Academic year   2014-2015
 
 /*
-                       | CODE INSTRUCTIONS |
-    1)
+ * @author      Ioannis Katsikavelas <ioankats93@gmail.com>              
+ * @copyright   2015 - Ioannis Katsikavelas 
+ * @license     {@link http://choosealicense.com/licenses/mit/ | MIT License}
+ */
 
-*/   
 
 //Sonar on Servo 
 #include <NewPing.h>
@@ -480,28 +481,6 @@ void finalDirect()
 
 
 
-/*
-
-  int x;
-  Serial.print("  X  : ");
-  Serial.print(x);
-
-  */
-
-
-  /*
-  Serial.print("RIGHT_1  : ");
-  Serial.print(right1);
-  Serial.print("   RIGHT_2  : ");
-  Serial.print(right2);
-  Serial.print("   CENTER  : ");
-  Serial.print(center);
-  Serial.print("   LEFT_1  : ");
-  Serial.print(left1);
-  Serial.print("   LEFT_2  : ");
-  Serial.println(left2);
-  */
-
 
 
   if ( center == 1 && right1 != 1 && right2 != 1 && left1 != 1 && left2 != 1 )
@@ -510,7 +489,7 @@ void finalDirect()
       turnleft90(); 
       delay(700);  //calibration needed
       stopall();
-      //Serial.println("  MPIKA STO PRWTO  ");
+     
     }
   if ( (right1 == 1 || right2 == 1) && left1 != 1 && left2 != 1 )
     {
@@ -518,7 +497,7 @@ void finalDirect()
       turnleft90(); 
       delay(700); //calibration needed
       stopall();
-      //Serial.println("  MPIKA STO DEUTERO  ");
+      ;
     }
     if ( (left1 == 1  || left2 == 1) && right1 != 1 && right2 != 1 ) 
     {
@@ -526,7 +505,7 @@ void finalDirect()
       turnright90();
       delay(700);
       stopall();
-      //Serial.println("  MPIKA STO TRITO  ");
+     
     }
 
 /*
@@ -550,7 +529,7 @@ void finalDirect()
       stopall();
       turnright90();
       delay(300);
-      //Serial.println("  MPIKA STO TETARTO  ");
+     
     }
 
 
@@ -704,7 +683,7 @@ int cerebrum()
    return changeDirection ;
 }
 
-int cerebrum1() /// ???? 
+int cerebrum1() 
 {
   int stopb = updatedistances();
   int changeDirection ;
@@ -755,7 +734,6 @@ void gobackwards()
 
 
 
-//// THELEI DIORTHWSEIS-test
 
 void turnleft90()
 {
@@ -774,7 +752,7 @@ void turnleft90()
 }
 
 
-///////THELEI DIORTHWSEIS-test
+
 
 void turnright90()
 {
@@ -793,10 +771,6 @@ void turnright90()
 }
 
 
-
-
-/////////////////THELEI DIORTHWSEIS-TEST/////////////////////////////////////
-//prosoxi 
 void headright90() 
 { 
  
