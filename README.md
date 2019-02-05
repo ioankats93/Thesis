@@ -5,4 +5,4 @@ I made a autonomous robot using Arduino, Raspberry Pi and many Sesnors and Actua
 
 # Purpose
 The purpose of this Thesis project, was to be able to understand how embedded systems and microcontrollers are working.
-Also to be able to programm the robot to autonomously wander around without colliding
+Also to be able to program the robot to autonomously wander around without colliding
